@@ -19,91 +19,63 @@ box-shadow: 1px 1px 8px rgb(108, 103, 103);
 border-radius: 15px;
 width: 19%;
 margin-right: 1%;
+position: relative;
 }
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up{
-    width: 995px;
-    background-color: #fff;
-    height: 500px;  
-    display: none;
-    left: 210px;
-    z-index: 100;
-    top: 0px;
-    border-radius: 10px;
-}
-
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany{
-display: flex;
-justify-content: space-between;
-margin-left: 40px;
-}
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item1  h3,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item2  h3,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item3  h3,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item4  h3,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item5  h3
-{
-    margin-bottom: 10px;
-}
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item1 .item-list li,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item2 .item-list li,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item3 .item-list li,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item4 .item-list li,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item5 .item-list li
-{
-    list-style-type: none;
-    margin-bottom: 7px;
-    font-size: 14px;
-    cursor: pointer;
-    color: #a5a2a3;
-}
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item1 .item-list li:hover,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item2 .item-list li:hover,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item3 .item-list li:hover,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item4 .item-list li:hover,
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item5 .item-list li:hover
-{
-    color: red;
-    
-}
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany .item2{
- width: auto;
- height: auto;
-}
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany-item{
+.topHome-container .topHome-menuMain .topHome-menuMain-item .item-title{
     display: flex;
-}
-.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-item-pop-up .topHome-menuMain-item-pop-up-phoneCompany div{
-  display: block;
-  flex-direction: column;
-}
-.topHome-container .topHome-menuMain .topHome-menuMain-item:hover .topHome-menuMain-item-pop-up{
-    display: block;
-    position: absolute;
-}
-.topHome-container .topHome-menuMain .topHome-menuMain-item{
-    display: flex;
-    align-items: center;
+    font-size: 10px;
     justify-content: space-between;
-    padding:1px 10px;
-    position: relative;
-} 
-.topHome-container .topHome-menuMain .topHome-menuMain-item h2{
-    font-size: 12px;
-    width: 130px;
+    padding: 5px;
+    cursor: pointer;
 }
-.topHome-container .topHome-menuMain .topHome-menuMain-item div svg:nth-child(2){
-    width: 27.5px;
-    height: 24px;
+.topHome-container .topHome-menuMain .topHome-menuMain-item .item-title svg:nth-child(1){
+    font-size: 20px;
+    margin-right: 8px;
 }
-.topHome-container .topHome-menuMain .topHome-menuMain-item div{
+.topHome-container .topHome-menuMain .topHome-menuMain-item .item-title svg:nth-child(2){
+    font-size: 20px;
+}
+.topHome-container .topHome-menuMain .topHome-menuMain-item .item-title div{
     display: flex;
-    align-items: center;
 }
-.topHome-container .topHome-menuMain .topHome-menuMain-item div svg:nth-child(1){
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
+.topHome-container .topHome-menuMain .topHome-menuMain-item .item-title:hover{
+    background-color: #e6e2e2;
+    color: #d70018;
+    border-radius: 7px;
 }
+.topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-popup {
+    top: 0;
+    left: 213px;
+    z-index: 2;
+    background-color: #fff;
+    position: absolute;
+    width: 1000px;
+    display: none;
+    border-radius: 10px;
+    padding: 8px;
+ }
+ .topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-popup .popup-item1{
+    font-size: 15px;
+    color: #8c8c8c;
+ }
+ .topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-popup .popup-item1 h3{
+    color: black;
+    margin-bottom: 7px;
+ }
+ .topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-popup .popup-item2{
+    list-style-type: none;
+    font-size: 15px;
+ }
+ .topHome-container .topHome-menuMain .topHome-menuMain-item .topHome-menuMain-popup .popup-item2 li{
+    margin-bottom: 10px;
+ }
+ 
+ .topHome-container .topHome-menuMain .topHome-menuMain-item:hover .topHome-menuMain-popup {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+ }
+
 .topHome-container .topHome-sliding{
     flex: 3;
     width: 59%;
@@ -133,6 +105,7 @@ margin-right: 1%;
     flex-direction: column;
     justify-content: space-between;
     width: 19%;
+    height: 379px;
 }
 .topHome-container .topHome-rightBanner a img{
     width: 258.26px;

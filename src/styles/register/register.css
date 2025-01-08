@@ -1,0 +1,129 @@
+.register-container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 70px 500px;
+    text-align: center;
+  }
+  
+  .register-header .register-logo {
+    width: 100px; /* Chỉnh kích thước logo */
+    height: 100px; /* Đảm bảo logo không bị méo */
+    margin-bottom: 10px;
+  }
+  
+  .register-header h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 200px;
+    margin-left: 235px;
+  }
+  
+  .social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .google-btn {
+    background-color: #fff;
+    color: black;
+  }
+  
+  .zalo-btn {
+    background-color: #fff;
+    color: black;
+  }
+  
+  .social-btn img {
+    width: 24px; /* Chỉnh kích thước icon */
+    height: 24px; /* Đảm bảo icon không bị méo */
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .divider span {
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .divider p {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+  }
+  
+  .email-note,
+  .password-note {
+    font-size: 12px;
+    color: #888;
+    text-align: left;
+    margin: 5px 0;
+  }
+  
+  .checkbox-group {
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  .checkbox-group label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #d80027;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .register-btn:hover {
+    background-color: #b0001f;
+  }
+  
+  .login-link {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .login-link a {
+    color: #d80027;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }

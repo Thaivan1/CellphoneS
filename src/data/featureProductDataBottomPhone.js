@@ -1,0 +1,13 @@
+const featureProductDataBottomPhone = [
+    {id: 1, image: "https://res.cloudinary.com/dvksv4hpi/image/upload/v1735132801/qd9cuza7xxd56xabv6so.webp", discount: "Giam 23%",  name: "SAMSUNG GALAXY A16 5GB 8GB 128GB", price: "6.090.000đ", smember: "61.000", s_student: "365.000"},
+    {id: 2, image: "https://res.cloudinary.com/dvksv4hpi/image/upload/v1735132945/sqiczlgd4c8noyeqjqrb.webp", discount: "Giam 23%", name: "IPhone 13 128GB | Chinh hang VN/A", priceDiscount: "13.290.000đ", price: "17.290.000đ", smember: "133.000"},
+    {id: 3, image: "https://res.cloudinary.com/dvksv4hpi/image/upload/v1735133095/qn6nheun90rks2xo0bmk.webp", discount: "Giam 23%", name: "SAMSUNG GALAXY S23 ULTRA 12GB 512GB", priceDiscount: "22.490.000đ",  price: "36.990.000đ", smember: "225.000", s_student: "600.000"},
+    {id: 4, image: "https://res.cloudinary.com/dvksv4hpi/image/upload/v1735133233/qajojstzmz7j6zsrkdyw.webp", discount: "Giam 23%", name: "XIAOMI 14T(14GB 512GB)", price: "13.990.000đ", smember: "135.000", s_student: "300.000"},
+    {id: 5,image: "https://res.cloudinary.com/dvksv4hpi/image/upload/v1735133348/fpkflw3bnmiydbyf13xq.webp", discount: "Giam 16%", name: "IPhone 15 128GB | Chinh hang VN/A", priceDiscount: "19.390.000đ",  price: "22.990.000đ", smember: "194.000"},
+    {id: 6, image: "https://res.cloudinary.com/dvksv4hpi/image/upload/v1735131874/pyozglr18vjbhqb5by3k.webp", discount: "Giam 3%", name: "IPhone 16 Pro Max 256GB | Chinh hang VN/A", priceDiscount: "33.890.000đ", price: "34.990.000đ", smember: "339.000"},
+    {id: 7, image: "https://res.cloudinary.com/dvksv4hpi/image/upload/v1735131899/v4f0ejjqgjvarb3hfq2m.webp", discount: "Giam 12%", name: "SAMSUNG GALAXY S24 ULTRA  12GB 256GB", priceDiscount: "29.990.000đ", price: "33.990.000đ", smember: "290.000", s_student: "600.000"},
+    {id: 8, image: "https://res.cloudinary.com/dvksv4hpi/image/upload/v1735131943/edut2cyauavrvykcralj.webp", discount: "Giam 5%", name: "SAMSUNG GALAXY Z Fold6 12GB 256GB", priceDiscount: "41.990.000đ", price: "43.990.000đ", smember: "420.000", s_student: "600.000"},
+    {id: 9, image: "https://res.cloudinary.com/dvksv4hpi/image/upload/v1735132531/pqxltsfyohlxkepxszpf.webp",discount: "Giam 23%", name: "OPPO FIND X8", price: "22.990.000đ" , smember: "230.000", s_student: "200.000"},
+    {id: 10, image: "https://res.cloudinary.com/dvksv4hpi/image/upload/v1735132678/xcgjhkrjhvx5mqxr19tq.webp", discount: "Giam 9%", name: "XIAOMI README 14C 4GB 128GB", priceDiscount: "2.990.000đ", price: "3.290.000đ", smember: "28.000", s_student: "140.000"},
+]
+export default featureProductDataBottomPhone;

@@ -1,0 +1,152 @@
+.login-container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 70px 600px;
+    text-align: center;
+  }
+  
+  .login-header .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .login-header h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 200px;
+    margin-left: 150px;
+  }
+  
+  .social-gg, .social-zl {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .social-gg img, .social-zl img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .social-login button {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .google-btn {
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+  }
+  
+  .zalo-btn {
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .divider span {
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .divider p {
+    margin: 0 10px;
+    color: #888;
+    font-size: 18px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid rgb(203, 194, 194);
+    font-size: 18px;
+  }
+  
+  .input-field:focus {
+    border-color: #4285f4;
+    outline: none;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password a {
+    color: #4285f4;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #d80027;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color: #b0001f;
+  }
+  
+  .signup-section {
+    margin-top: 20px;
+  }
+  
+  .signup-section p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .signup-section a {
+    color: #d80027;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  
+  .policy-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 17px;
+    color: #d80027;
+    text-decoration: none;
+  }
+  
+  .policy-link:hover {
+    text-decoration: underline;
+  }

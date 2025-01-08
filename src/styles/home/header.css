@@ -55,6 +55,10 @@
 .header-container .header-userLogin h2{
     width: 58px;
 }
+.header-container .header-userLogin h2 a{
+    text-decoration: none;
+    color: #fff;
+}
 
 .header-container .header-listBox > svg,
 .header-container .header-shoppingBag > svg,

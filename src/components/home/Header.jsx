@@ -8,6 +8,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 import { FaShoppingBag } from "react-icons/fa";
 import { FaRegCircleUser } from "react-icons/fa6";
 import "../../styles/home/header.css"
+import { Link } from 'react-router';
 
 function Header() {
     const [WindowWidth, setWindowWidth] = useState(window.innerWidth)
@@ -22,7 +23,8 @@ return () => window.removeEventListener("resize", handleResize)
   <div className='header-bccolor'>
       <div className='header-container'>
     <div className='header-logo'>
-        <img src='https://www.homepaylater.vn/static/7558f9c71d6356dedc95925471b4e62e/7b48c/cell_phone_s_logo_f626c95055.jpg' alt='logo'></img>
+        <img src='https://www.homepaylater.vn/static/7558f9c71d6356dedc95925471b4e62e/7b48c/cell_phone_s_logo_f626c95055.jpg' alt='logo' >
+        </img>
     </div>
     <div className='header-listBox'>
     <IoIosListBox />
@@ -67,7 +69,9 @@ return () => window.removeEventListener("resize", handleResize)
     </div>
     <div className='header-userLogin'>
     <FaRegCircleUser />
-    <h2>Đăng nhập</h2>
+    <h2>
+    <Link to="/login">Đăng nhập</Link>
+    </h2>
     </div>
     </div>
   </div>
